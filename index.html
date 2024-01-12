@@ -7,9 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
     <h1>Hello, World!</h1>
-    <img src="image/download.png" alt="">
-    <button type="Button">Click Me!</button>
+    <img src="images/blog.png" alt="">
+    <p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
 
     
     <script src="index.js"></script>
