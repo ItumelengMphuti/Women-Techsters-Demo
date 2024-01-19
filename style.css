@@ -1,4 +1,33 @@
+* {
+  background-color: rgb(236, 203, 208);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-left: 520px;
+
+  max-width: fit-content;
+}
+header h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
 form {
   max-width: 300px;
-  margin: 50px auto;
+  margin: auto;
+}
+#signUp {
+  padding: 5px 10px 10px 20px;
+  background-color: whitesmoke;
+}
+label, input, p {
+  display: block;
+  margin: 5px 0 10px 0;
+  background-color: whitesmoke;
+} 
+label {
+  width: fit-content;
 }
