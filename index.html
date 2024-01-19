@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In | Sign Up</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
-            </ul>
-        </nav>
+        Create your entries account.
     </header>
+<form id="signUp">
+    <label for="firstName">First Name:</label>
+    <input type="text" name="firstName" id="firstName">
+    <br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="lastName" id="lastName">
+    <br>
+    <label for="email">Email Address:</label>
+    <input type="text" name="email" id="email">
+    <br>
+    <label for="username">Username:</label>
+    <input type="text" name="userName" id="userName">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+    <br>
+    <label for="cpassword">Confirm Password:</label>
+    <input type="password" name="cpassword" id="cpassword">
+    <br>
+    <button type="submit">Submit</button>
+</form>
 
-    <h1>Hello, World!</h1>
-    <img src="images/blog.png" alt="">
-    <p id="demo">JavaScript can change HTML content.</p>
-
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
-
-    
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

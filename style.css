@@ -1,44 +1,4 @@
-/* header {
-    background-color: pink;
-
+form {
+  max-width: 300px;
+  margin: 50px auto;
 }
-ul {
-
-}
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-stretch: condensed;
-} */
-
-/* Reset some default styles */
-body, h1, h2, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Style the navigation bar */
-  nav {
-    background-color: #d4c92d; /* Set the background color */
-  }
-  
-  nav ul {
-    list-style: none; /* Remove list styling */
-    display: flex; /* Display the list items in a row */
-  }
-  
-  nav li {
-    margin-right: 15px; /* Add some spacing between list items */
-  }
-  
-  nav a {
-    text-decoration: none; /* Remove underlines from links */
-    color: white; /* Set the text color */
-    font-weight: bold; /* Set the font weight */
-    padding: 10px; /* Add padding around the links */
-  }
-  
-  /* Style the navigation links on hover */
-  nav a:hover {
-    background-color: #555; /* Set background color on hover */
-  }
-  
